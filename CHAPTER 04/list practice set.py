@@ -1,0 +1,25 @@
+A = ["KRISHAN CHANDER",1966,["EX-SERVICEMEN","26YRS SERVICE"],[14600962,1986,2013]]
+
+print(A)
+print(A[0:])
+print(A[-1:])
+print(A[-1][1])
+print(A[-1:0:-1])
+print(A[-1::-1])
+print(A[::2][1])    #----- need to find the logic behind this
+print(A[2][1])
+print(A[3][:])
+A[2].remove("EX-SERVICEMEN")
+print(A)
+A[2].append('EX-SERVICEMEN')
+print(A)
+X = A.pop(1)
+print(X)
+print(A)
+A.insert(1,1966)
+print(A)
+x = A[2].count("EX-SERVICEMEN")
+print(x)
+print(A.index(1966))
+print(A)
+
