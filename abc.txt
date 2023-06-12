@@ -1,0 +1,6 @@
+Hello I am Rohit.
+I am looking for a job.
+My specialities are in pyhton,C,C++.
+I am familiar with framworks like pycharm,atom,vs,
+Have a good knowledge of mysql.
+Done btech in CSE domain.
