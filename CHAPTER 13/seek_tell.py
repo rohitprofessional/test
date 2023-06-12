@@ -1,0 +1,10 @@
+f = open("sample.txt","w")
+f.write("yo bro what's up??")
+f.close()
+
+f = open("sample.txt","r")
+f.seek(5)
+data = f.read()
+print(data)
+print(f.tell())
+f.close()
