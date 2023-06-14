@@ -3,14 +3,18 @@
 # "cus" is an obj of class customer w/c stores the blueprint of the class
 # here it has 4 data variables(id,name,address,mob) in the class blueprint. 
 
+# ----------CLASS STARTS FORM HERE-------------------------
 class Customer:
     def __init__(self):
         self.id=0       # data variables
         self.name=""    # data variables
         self.address="" # data variables
         self.mob=""     # data variables
+# -----------CLASS ENDS HERE---------------------------------
 
 listCus=[]  # create an empty list to stores customer details using obj "cus".
+
+# Here functions are defined outside the class
 
 def addCustomer(cus):   # recieving obj as argument
     listCus.append(cus) # adding/appending each customer's details obj "cus"
@@ -50,9 +54,9 @@ def deleteCustomerNew(id):
 
 
 
-#BLL Code End Here
+# BLL Code End Here
 
-#PL Code Start from Here
+# PL Code Start from Here
 
 while(True):
     print("1.Add Customer\n2.Search\n3.Delete\n4.Modify\n0.Exit")
@@ -70,6 +74,7 @@ while(True):
         print("Customer Added Sucessfully")
         #Write code for addCustomer
         pass
+   
     elif(ch=="2"):
 
         id=int(input("Enter ID"))
