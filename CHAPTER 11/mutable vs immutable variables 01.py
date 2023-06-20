@@ -26,6 +26,6 @@ list1 = [1]
 print("List before function call:", list1)
 myfunc(list1)   # that's why all the changes made in the called func will not reflect back to the passed arguments.
 print("\nList after function call:", list1)
-print(id(list1[0]))
-print(id(list1[4]))
+print(id(list1[0])) # also see that the individual index having different address within the same container list having
+print(id(list1[4])) # same value'[2]' pointing to the same refrence address where value is stored.
 print(id(list1))
