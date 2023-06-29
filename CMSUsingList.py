@@ -1,4 +1,15 @@
 #BLL Code Start from Here
+'''
+It is a customer data storage program w/c stores the details of the cutomers.
+But the catch here is instead of storing all and each cusotmer details in a nested 
+list, where each element at the pareht list index cusotmer, we use different list to 
+store a same particular field in a same list. Like all the ids will be in a separate list,
+all the names will be in a separate list, etc.
+
+This program is purely based on list and using functions with the help of if-else.
+4 types of empty list is created to store the value of 1 field
+related to a given customer's details entered by the user.
+'''
 listId=[]
 listName=[]
 listAddress=[]
@@ -54,16 +65,16 @@ def modifyCustomer(id):
     else:
         print("Customer info is not deleted.")
         
-
-
 #BLL Code End Here
 
+
 #PL Code Start from Here
+
 while(True):
     print("1.Add Customer\n2.Search\n3.Delete\n4.Modify\n0.Exit")
-    ch = input("Enter ur choice in 1\\2\\3\\4\\0 :")
+    ch = input("Enter ur choice in 1\\2\\3\\4\\0 :")    # taking the user input based on w/c crud operations will be performed.
     
-    if(ch == "1"):  # Write code for addCustomer
+    if(ch == "1"):  # Write code for addCustomer to the 
         id = int(input("Enter Id :"))
         name = input("Enter Name :")
         address = input("Enter Address :")
