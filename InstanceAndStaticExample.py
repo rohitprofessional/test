@@ -17,6 +17,7 @@ class Class1:
         print("into the instance method")
         self.m=a    # method variables
         self.n=b
+        
     @staticmethod
     def showStatic():   # static method
         print("into the static method")
